@@ -47,9 +47,9 @@ class _EditRequestPaneState extends ConsumerState<EditRequestPane> {
         bodyLength != null && bodyLength > 0,
       ],
       children: const [
+        EditRequestBody(),
         EditRequestURLParams(),
         EditRequestHeaders(),
-        EditRequestBody(),
       ],
     );
   }

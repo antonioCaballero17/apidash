@@ -171,6 +171,7 @@ const kLightCodeTheme = {
   'title': TextStyle(color: Color(0xff1c00cf)),
   'type': TextStyle(color: Color(0xff5c2699)),
   'variable': TextStyle(color: Color(0xff3F6E74)),
+  'boolean': TextStyle(color: Color(0xff643820)),
 };
 
 const kDarkCodeTheme = {
@@ -217,6 +218,7 @@ const kDarkCodeTheme = {
   'title': TextStyle(color: Color(0xffDCDCAA)),
   'type': TextStyle(color: Color(0xff82aaff)),
   'variable': TextStyle(color: Color(0xffaddb67)),
+  'boolean': TextStyle(color: Color(0xff82aaff)),
 };
 
 final kColorStatusCodeDefault = Colors.grey.shade700;
