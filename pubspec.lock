@@ -245,10 +245,10 @@ packages:
     dependency: transitive
     description:
       name: extended_text_field
-      sha256: ed9655c70a47a54c7cc689cf7f89a2bde9ab7b530150b4d1808b7aa7eb8cdf90
+      sha256: d064097c774eab3a7f2aad1db32533611a71ed52305b3afd3e0364642a1a61f7
       url: "https://pub.dev"
     source: hosted
-    version: "13.0.0"
+    version: "13.1.0"
   extended_text_library:
     dependency: transitive
     description:
@@ -564,7 +564,7 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "9fa58d7b51e65174ab11cbcae17bba88a4194dde"
+      ref: HEAD
       resolved-ref: "9fa58d7b51e65174ab11cbcae17bba88a4194dde"
       url: "https://github.com/foss42/json_data_explorer.git"
     source: git
