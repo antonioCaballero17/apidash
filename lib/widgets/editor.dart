@@ -27,7 +27,7 @@ class _TextFieldEditorState extends State<TextFieldEditor> {
   String? error;
 
   void insertTab() {
-    String sp = "  ";
+    String sp = "    ";
     int offset = math.min(
         controller.selection.baseOffset, controller.selection.extentOffset);
     String text = controller.text.substring(0, offset) +
@@ -46,9 +46,6 @@ class _TextFieldEditorState extends State<TextFieldEditor> {
   @override
   void initState() {
     super.initState();
-    if (widget.contentType == ContentType.json) {
-      controller.formatJson(sortJson: false);
-    }
     editorFocusNode = FocusNode(debugLabel: "Editor Focus Node");
   }
 
